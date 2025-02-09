@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: #464e57;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  color:white;
+}
+
+.taskInput {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #353a41;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #878787;
+  color: #353a41;
+}
+input[type="checkbox"]{
+  
+  padding: 8px;
+  scale: 2;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+  transition: 0.2s ease-in-out;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 6px;
+}
+
